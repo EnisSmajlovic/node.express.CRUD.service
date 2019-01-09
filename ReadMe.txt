@@ -6,14 +6,16 @@ Install MongoDB.
 
 Clone repo.
 
-Run npm i in root directory.
+Run     npm i               inside root directory.
 
-Create .env and set following values for:
-    NODE_ENV
-    PORT
-    DB_HOST
+Create .env file in root directory and set the following values for:
+    NODE_ENV    eg. development
+    PORT        eg. 3000
+    DB_HOST     eg. mongodb://localhost:27017/user_db
 
-Run npm run server to start server.
+Run     npm run server      to start server.
+
+Open in browser / Postman.
 
 Get all users (by Query)
     http://[url]/user/?start=[value]&rows=[value]
