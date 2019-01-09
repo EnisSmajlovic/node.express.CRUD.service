@@ -1,7 +1,7 @@
 {
-  "name": "developer.api.task",
+  "name": "developer.api",
   "version": "1.0.0",
-  "description": "Developer task - simple API with MYSQL",
+  "description": "Developer task - CRUD API service with mongoDB",
   "jest": {
     "testEnvironment": "node"
   },
