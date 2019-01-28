@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "test": "jest --collectCoverage"
+    "test": "jest --watchAll --collectCoverage"
   },
   "author": "ES",
   "license": "UNLICENSED",
