@@ -9,9 +9,9 @@ Clone repo.
 Run     npm i               inside root directory.
 
 Create .env file in root directory and set the following values for:
-    NODE_ENV    eg. development
-    PORT        eg. 3000
-    DB_HOST     eg. mongodb://localhost:27017/user_db
+    NODE_ENV = development
+    PORT     = 3000
+    DB_HOST  = mongodb://localhost:27017/user_db
 
 Run     npm run server      to start server.
 
