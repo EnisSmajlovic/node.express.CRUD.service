@@ -1,39 +1,34 @@
-Simple Node Express CRUD service using Mongoose to write to MongoDB database.
+Node Express CRUD service
 
 Installation:
 
-Install MongoDB.
+1. Install mongoDB
 
-Clone repo.
+2. Clone repo
 
-Run     npm i               inside root directory.
+3. Run (inside root): $npm i
 
-Create .env file in root directory and set the following values for:
+4. Create .env file in root directory and set the following values for:
     NODE_ENV = development
     PORT     = 3000
     DB_HOST  = mongodb://localhost:27017/user_db
 
-Run     npm run server      to start server.
+5. Start server: $npm run server
 
-Open in browser / Postman.
+6. Open in browser / postman
 
-Get all users (by Query)
+6.1. Get all users (by Query)
     http://[url]/user/?start=[value]&rows=[value]
 
-CRUD using Postman as an example:
-    Create
+6.2. CRUD using Postman as an example:
+    a) Create
         http://[url]/user/
-    Read
+    b) Read
         http://[url]/user/[id]
         http://[url]/user/?start=[value]&rows=[value]
-    Update
+    c) Update
         http://[url]/user/[id]
-    Delete
+    d) Delete
         http://[url]/user/[id]
 
-Finally 
-    npm test 
-to run unit tests...
-
-Some unit tests implemented to cover Get methods in controller and service modules.
-Same principles would follow for full CRUD operation unit testing.
+7. Run unit tests: $npm test
